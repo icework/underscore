@@ -9,4 +9,4 @@ install:
 script:
   - 'npm test'
 notifications:
-  email: false
+  slack: smartorg:nle3gU183MeaEZkcv37psNDQ
