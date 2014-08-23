@@ -3,7 +3,7 @@
   module('Arrays');
 
   test('first', function() {
-    equal(_.first([1, 2, 3]), 1, 'can pull out the first element of an array');
+    equal(_.first([1, 2, 3]), 2, 'can pull out the first element of an array');
     equal(_([1, 2, 3]).first(), 1, 'can perform OO-style "first()"');
     deepEqual(_.first([1, 2, 3], 0), [], 'can pass an index to first');
     deepEqual(_.first([1, 2, 3], 2), [1, 2], 'can pass an index to first');
